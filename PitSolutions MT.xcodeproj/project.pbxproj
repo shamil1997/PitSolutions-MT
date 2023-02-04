@@ -7,9 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1BBCDB71298CBAFE00AE4EE2 /* SDWebImage in Frameworks */ = {isa = PBXBuildFile; productRef = 1BBCDB70298CBAFE00AE4EE2 /* SDWebImage */; };
+		1BBCDB77298CCBC000AE4EE2 /* ShowAlerts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCDB76298CCBC000AE4EE2 /* ShowAlerts.swift */; };
+		1BBCDB79298CD2AD00AE4EE2 /* PetDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCDB78298CD2AD00AE4EE2 /* PetDetailsViewController.swift */; };
+		1BBCDB7B298CE6DE00AE4EE2 /* NetworkMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCDB7A298CE6DE00AE4EE2 /* NetworkMonitor.swift */; };
+		1BBCDB85298D0D8600AE4EE2 /* CustomFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BBCDB84298D0D8600AE4EE2 /* CustomFunctions.swift */; };
+		1BBCDB87298D18CD00AE4EE2 /* config.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BBCDB86298D18CD00AE4EE2 /* config.json */; };
 		1BEC1AAA298BB1FB00409DF0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC1AA9298BB1FB00409DF0 /* AppDelegate.swift */; };
 		1BEC1AAC298BB1FB00409DF0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC1AAB298BB1FB00409DF0 /* SceneDelegate.swift */; };
-		1BEC1AAE298BB1FB00409DF0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC1AAD298BB1FB00409DF0 /* ViewController.swift */; };
 		1BEC1AB1298BB1FB00409DF0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC1AAF298BB1FB00409DF0 /* Main.storyboard */; };
 		1BEC1AB4298BB1FB00409DF0 /* PitSolutions_MT.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC1AB2298BB1FB00409DF0 /* PitSolutions_MT.xcdatamodeld */; };
 		1BEC1AB6298BB1FC00409DF0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC1AB5298BB1FC00409DF0 /* Assets.xcassets */; };
@@ -17,6 +22,10 @@
 		1BEC1AC4298BB1FC00409DF0 /* PitSolutions_MTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC1AC3298BB1FC00409DF0 /* PitSolutions_MTTests.swift */; };
 		1BEC1ACE298BB1FC00409DF0 /* PitSolutions_MTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC1ACD298BB1FC00409DF0 /* PitSolutions_MTUITests.swift */; };
 		1BEC1AD0298BB1FC00409DF0 /* PitSolutions_MTUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC1ACF298BB1FC00409DF0 /* PitSolutions_MTUITestsLaunchTests.swift */; };
+		1BEC1ADD298BB22600409DF0 /* PetsImageCllectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC1ADC298BB22600409DF0 /* PetsImageCllectionViewController.swift */; };
+		1BEC1AE1298BB5EC00409DF0 /* PetImageViewCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC1AE0298BB5EC00409DF0 /* PetImageViewCollectionViewCell.swift */; };
+		1BEC1AE5298BB64400409DF0 /* ClassManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEC1AE4298BB64400409DF0 /* ClassManager.swift */; };
+		1BEC1AE7298BD91800409DF0 /* PetCollectionJson.json in Resources */ = {isa = PBXBuildFile; fileRef = 1BEC1AE6298BD91800409DF0 /* PetCollectionJson.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +46,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1BBCDB76298CCBC000AE4EE2 /* ShowAlerts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShowAlerts.swift; sourceTree = "<group>"; };
+		1BBCDB78298CD2AD00AE4EE2 /* PetDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetDetailsViewController.swift; sourceTree = "<group>"; };
+		1BBCDB7A298CE6DE00AE4EE2 /* NetworkMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkMonitor.swift; sourceTree = "<group>"; };
+		1BBCDB84298D0D8600AE4EE2 /* CustomFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomFunctions.swift; sourceTree = "<group>"; };
+		1BBCDB86298D18CD00AE4EE2 /* config.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = config.json; sourceTree = "<group>"; };
 		1BEC1AA6298BB1FB00409DF0 /* PitSolutions MT.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PitSolutions MT.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEC1AA9298BB1FB00409DF0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BEC1AAB298BB1FB00409DF0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1BEC1AAD298BB1FB00409DF0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1BEC1AB0298BB1FB00409DF0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1BEC1AB3298BB1FB00409DF0 /* PitSolutions_MT.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PitSolutions_MT.xcdatamodel; sourceTree = "<group>"; };
 		1BEC1AB5298BB1FC00409DF0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +64,10 @@
 		1BEC1AC9298BB1FC00409DF0 /* PitSolutions MTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "PitSolutions MTUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BEC1ACD298BB1FC00409DF0 /* PitSolutions_MTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitSolutions_MTUITests.swift; sourceTree = "<group>"; };
 		1BEC1ACF298BB1FC00409DF0 /* PitSolutions_MTUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitSolutions_MTUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		1BEC1ADC298BB22600409DF0 /* PetsImageCllectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetsImageCllectionViewController.swift; sourceTree = "<group>"; };
+		1BEC1AE0298BB5EC00409DF0 /* PetImageViewCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PetImageViewCollectionViewCell.swift; sourceTree = "<group>"; };
+		1BEC1AE4298BB64400409DF0 /* ClassManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassManager.swift; sourceTree = "<group>"; };
+		1BEC1AE6298BD91800409DF0 /* PetCollectionJson.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = PetCollectionJson.json; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BBCDB71298CBAFE00AE4EE2 /* SDWebImage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +96,63 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1BBCDB7C298CFCF900AE4EE2 /* PetHomePageController */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC1AE0298BB5EC00409DF0 /* PetImageViewCollectionViewCell.swift */,
+				1BEC1ADC298BB22600409DF0 /* PetsImageCllectionViewController.swift */,
+			);
+			path = PetHomePageController;
+			sourceTree = "<group>";
+		};
+		1BBCDB7D298CFD2800AE4EE2 /* PetDetailViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1BBCDB78298CD2AD00AE4EE2 /* PetDetailsViewController.swift */,
+			);
+			path = PetDetailViewController;
+			sourceTree = "<group>";
+		};
+		1BBCDB7E298CFD4200AE4EE2 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC1AA9298BB1FB00409DF0 /* AppDelegate.swift */,
+				1BEC1AAB298BB1FB00409DF0 /* SceneDelegate.swift */,
+				1BBCDB7D298CFD2800AE4EE2 /* PetDetailViewController */,
+				1BBCDB7C298CFCF900AE4EE2 /* PetHomePageController */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		1BBCDB80298CFE3B00AE4EE2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC1AE4298BB64400409DF0 /* ClassManager.swift */,
+				1BBCDB7A298CE6DE00AE4EE2 /* NetworkMonitor.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		1BBCDB82298CFF3200AE4EE2 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				1BEC1AB7298BB1FC00409DF0 /* LaunchScreen.storyboard */,
+				1BEC1AAF298BB1FB00409DF0 /* Main.storyboard */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		1BBCDB83298CFF6C00AE4EE2 /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				1BBCDB86298D18CD00AE4EE2 /* config.json */,
+				1BEC1AE6298BD91800409DF0 /* PetCollectionJson.json */,
+				1BBCDB76298CCBC000AE4EE2 /* ShowAlerts.swift */,
+				1BBCDB84298D0D8600AE4EE2 /* CustomFunctions.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
 		1BEC1A9D298BB1FB00409DF0 = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +176,11 @@
 		1BEC1AA8298BB1FB00409DF0 /* PitSolutions MT */ = {
 			isa = PBXGroup;
 			children = (
-				1BEC1AA9298BB1FB00409DF0 /* AppDelegate.swift */,
-				1BEC1AAB298BB1FB00409DF0 /* SceneDelegate.swift */,
-				1BEC1AAD298BB1FB00409DF0 /* ViewController.swift */,
-				1BEC1AAF298BB1FB00409DF0 /* Main.storyboard */,
+				1BBCDB83298CFF6C00AE4EE2 /* Delegates */,
+				1BBCDB82298CFF3200AE4EE2 /* UI */,
+				1BBCDB80298CFE3B00AE4EE2 /* Model */,
+				1BBCDB7E298CFD4200AE4EE2 /* ViewController */,
 				1BEC1AB5298BB1FC00409DF0 /* Assets.xcassets */,
-				1BEC1AB7298BB1FC00409DF0 /* LaunchScreen.storyboard */,
 				1BEC1ABA298BB1FC00409DF0 /* Info.plist */,
 				1BEC1AB2298BB1FB00409DF0 /* PitSolutions_MT.xcdatamodeld */,
 			);
@@ -146,6 +220,9 @@
 			dependencies = (
 			);
 			name = "PitSolutions MT";
+			packageProductDependencies = (
+				1BBCDB70298CBAFE00AE4EE2 /* SDWebImage */,
+			);
 			productName = "PitSolutions MT";
 			productReference = 1BEC1AA6298BB1FB00409DF0 /* PitSolutions MT.app */;
 			productType = "com.apple.product-type.application";
@@ -218,6 +295,9 @@
 				Base,
 			);
 			mainGroup = 1BEC1A9D298BB1FB00409DF0;
+			packageReferences = (
+				1BBCDB6F298CBAFE00AE4EE2 /* XCRemoteSwiftPackageReference "SDWebImage" */,
+			);
 			productRefGroup = 1BEC1AA7298BB1FB00409DF0 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -235,6 +315,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BEC1AB9298BB1FC00409DF0 /* LaunchScreen.storyboard in Resources */,
+				1BEC1AE7298BD91800409DF0 /* PetCollectionJson.json in Resources */,
+				1BBCDB87298D18CD00AE4EE2 /* config.json in Resources */,
 				1BEC1AB6298BB1FC00409DF0 /* Assets.xcassets in Resources */,
 				1BEC1AB1298BB1FB00409DF0 /* Main.storyboard in Resources */,
 			);
@@ -261,9 +343,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BEC1AAE298BB1FB00409DF0 /* ViewController.swift in Sources */,
+				1BBCDB7B298CE6DE00AE4EE2 /* NetworkMonitor.swift in Sources */,
+				1BEC1ADD298BB22600409DF0 /* PetsImageCllectionViewController.swift in Sources */,
+				1BBCDB85298D0D8600AE4EE2 /* CustomFunctions.swift in Sources */,
 				1BEC1AB4298BB1FB00409DF0 /* PitSolutions_MT.xcdatamodeld in Sources */,
+				1BBCDB77298CCBC000AE4EE2 /* ShowAlerts.swift in Sources */,
+				1BBCDB79298CD2AD00AE4EE2 /* PetDetailsViewController.swift in Sources */,
+				1BEC1AE1298BB5EC00409DF0 /* PetImageViewCollectionViewCell.swift in Sources */,
 				1BEC1AAA298BB1FB00409DF0 /* AppDelegate.swift in Sources */,
+				1BEC1AE5298BB64400409DF0 /* ClassManager.swift in Sources */,
 				1BEC1AAC298BB1FB00409DF0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -606,6 +694,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1BBCDB6F298CBAFE00AE4EE2 /* XCRemoteSwiftPackageReference "SDWebImage" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImage.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1BBCDB70298CBAFE00AE4EE2 /* SDWebImage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1BBCDB6F298CBAFE00AE4EE2 /* XCRemoteSwiftPackageReference "SDWebImage" */;
+			productName = SDWebImage;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		1BEC1AB2298BB1FB00409DF0 /* PitSolutions_MT.xcdatamodeld */ = {

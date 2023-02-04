@@ -14,6 +14,10 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+        NetworkMonitor.shared.startMonitoring()
+        guard let configJson = CustomFunctions.shared.parseDataFromConfigWithFile(fileName: "config", fileExtension: "json") else {return false}
+        let availability = CustomFunctions.shared.isValidTime(configJson)
+        UserDefaults.standard.set(availability, forKey: "isContentAvailable")
         // Override point for customization after application launch.
         return true
     }
