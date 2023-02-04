@@ -16,7 +16,7 @@ class PetsImageCllectionViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
+        DispatchQueue.main.asyncAfter(deadline: .now() + 2.0) {
             self.checkAppTimeValidity()
             }
     }
@@ -30,6 +30,7 @@ class PetsImageCllectionViewController: UIViewController {
             getConnectivityStatus()
         }else{
             showAlert.displayError(on: self, title: "Time Over", message: "The alloted time is over. please login tomorrow between 09:00 and 18:00")
+            petImageCollectionView.isHidden = true
         }
     }
     

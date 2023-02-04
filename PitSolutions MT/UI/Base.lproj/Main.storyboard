@@ -17,6 +17,12 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Please Try logging in betweeen 09:00 and 18:00 from monday to friday" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1d4-f9-tqo">
+                                <rect key="frame" x="39.333333333333343" y="405.66666666666669" width="314.33333333333326" height="40.666666666666686"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                             <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="black" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="f1t-bK-Whr">
                                 <rect key="frame" x="0.0" y="103" width="393" height="715"/>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -71,9 +77,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
+                            <constraint firstItem="1d4-f9-tqo" firstAttribute="width" secondItem="f1t-bK-Whr" secondAttribute="width" multiplier="0.8" id="BsX-fH-xLD"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="f1t-bK-Whr" secondAttribute="bottom" id="Rxq-L7-dn9"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="f1t-bK-Whr" secondAttribute="trailing" id="U94-WU-vdB"/>
                             <constraint firstItem="f1t-bK-Whr" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="drl-g3-adp"/>
+                            <constraint firstItem="1d4-f9-tqo" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lZN-Ee-8i7"/>
+                            <constraint firstItem="1d4-f9-tqo" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="pts-J6-eXF"/>
                             <constraint firstItem="f1t-bK-Whr" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="uIl-zb-laN"/>
                         </constraints>
                     </view>
